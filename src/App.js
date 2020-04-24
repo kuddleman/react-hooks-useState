@@ -2,6 +2,7 @@ import React from 'react';
 
 import ClassCounter from './ClassCounter'
 import HookCounter from './HookCounter'
+import HookCounterTwo from './HookCounterTwo'
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <h1>Hello from App</h1>
       <ClassCounter />
       <HookCounter />
+      <HookCounterTwo />
     </div>
   );
 }
